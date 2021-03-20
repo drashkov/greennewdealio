@@ -173,6 +173,7 @@
         <footer class="col-md-12">
           {%- block footer %}
             <hr>
+            © <a href="https://twitter.com/drashkov" target="_blank">Martin Drashkov</a> 2021
             {%- if config.copyright %}
                 <p>{{ config.copyright }}</p>
             {%- endif %}
@@ -195,9 +196,3 @@
 
     </body>
 </html>
-{% if page and page.is_homepage %}
-<!--
-MkDocs version : {{ mkdocs_version }}
-Build Date UTC : {{ build_date_utc }}
--->
-{% endif %}

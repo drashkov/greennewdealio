@@ -1,4 +1,4 @@
-# Robot Mole
+# A Robot Mole to Tackle Climate Change
 
 
 Developing technologies and shifting human activities to carbon-free alternatives while maintaining a high standard of living is the key to successfully tackling climate change. One of the best examples of this challenge is heating our homes - an essential activity for anyone living in northern climates or high altitudes, a human activity so old it predates our species. It is also, rightly, one of the biggest anxieties people express when discussing climate change - if we have to stop burning fossil fuels, how will we heat our houses?
