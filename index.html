@@ -12,7 +12,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-cave-light.min.css">
 
         <script src="js/jquery-1.10.2.min.js" defer></script>
         <script src="js/bootstrap.min.js" defer></script>
@@ -21,12 +21,31 @@
     </head>
 
     <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a class="navbar-brand" href=".">Green New Dealio</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Green New Dealio</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Heating <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="heating/robot-mole/" class="dropdown-item">Robot Mole</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
@@ -34,6 +53,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="heating/robot-mole/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -52,9 +81,25 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-green-new-dealio" class="nav-link">Welcome to Green New Dealio</a>
+            <li class="nav-item" data-level="1"><a href="#green-new-dealio" class="nav-link">Green New Dealio</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#heading-2" class="nav-link">HEADING 2</a>
+            <li class="nav-item" data-level="2"><a href="#heating" class="nav-link">Heating</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#transportation" class="nav-link">Transportation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#power-generation" class="nav-link">Power Generation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#investment" class="nav-link">Investment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#philosophy" class="nav-link">Philosophy</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -65,18 +110,44 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-green-new-dealio">Welcome to Green New Dealio</h1>
-<p>Text 1</p>
-<h2 id="heading-2">HEADING 2</h2>
-<p>Text 2</p>
-<h3 id="heading-3">HEADING 3</h3>
-<p>Text 3</p></div>
+<h1 id="green-new-dealio">Green New Dealio</h1>
+<p>A collection of essays about climate change, a thesis.</p>
+<h2 id="heating">Heating</h2>
+<ul>
+<li>Market Size and opportunity</li>
+<li><a href="heating/robot-mole/">Robot Mole</a></li>
+</ul>
+<h2 id="transportation">Transportation</h2>
+<ul>
+<li>Packet switched vs Circuit Switched Networks<ul>
+<li>subpoint</li>
+</ul>
+</li>
+<li>Time to kill trains</li>
+<li>Repost of autonomy costs</li>
+<li>L4 vs L5 is purely a philosophical debate</li>
+<li>A great time to start an airline</li>
+</ul>
+<h2 id="power-generation">Power Generation</h2>
+<ul>
+<li>Solar will have an environmental problem.</li>
+</ul>
+<h2 id="investment">Investment</h2>
+<ul>
+<li>Framework</li>
+<li>Waymo vs Tesla is a bullshit argument</li>
+<li>Is hydrogen good for anything</li>
+</ul>
+<h2 id="philosophy">Philosophy</h2>
+<ul>
+<li>Climate Change is not Environmentalism</li>
+</ul></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+                <p>2021 Martin Drashkov</p>
         </footer>
         <script>
             var base_url = ".",
@@ -154,5 +225,5 @@
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2020-06-20 20:32:10.301327+00:00
+Build Date UTC : 2021-03-20 22:51:41.527765+00:00
 -->
