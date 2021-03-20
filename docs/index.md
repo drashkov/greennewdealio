@@ -1,13 +1,29 @@
-# Welcome to Green New Dealio
+# Green New Dealio
 
-Text 1
+A collection of essays about climate change, a thesis.
 
-## HEADING 2
+## Heating
 
-Text 2
+* Market Size and opportunity
+* [Robot Mole](heating/robot-mole.md)
 
-### HEADING 3
+## Transportation
 
+* Packet switched vs Circuit Switched Networks
+    * subpoint
+* Time to kill trains
+* Repost of autonomy costs
+* L4 vs L5 is purely a philosophical debate
+* A great time to start an airline
 
-Text 3
+## Power Generation
+* Solar will have an environmental problem.
 
+## Investment
+
+* Framework
+* Waymo vs Tesla is a bullshit argument
+* Is hydrogen good for anything
+
+## Philosophy
+* Climate Change is not Environmentalism
