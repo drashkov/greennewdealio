@@ -4,7 +4,7 @@ A collection of essays about climate change.
 
 ## Heating
 * [A Robot Mole to Tacke Climate Change](heating/robot-mole.md)
-* Market Size and Opportunity
+* [Market Size and Opportunity](heating/market.md)
 * Robot Mole Design
 
 ## Transportation

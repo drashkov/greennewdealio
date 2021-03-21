@@ -68,3 +68,5 @@ The most elegant and efficient way to tacke this problem is to develop a robot m
 
 There would be a number or challengest with building such a machine - mapping and navigating the terrain, dealing with very heterogeneous environments, miniturizing drilling technolgies etc. Nevertheless, it seems very doable
 
+
+In [Market Opportunity](market.md), we'll explore the financial and emissions savings opportunities for this technology.
